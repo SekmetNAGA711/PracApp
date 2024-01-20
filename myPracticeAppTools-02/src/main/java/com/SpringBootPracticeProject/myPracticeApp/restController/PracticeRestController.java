@@ -25,4 +25,10 @@ public class PracticeRestController {
         return "Today is your lucky day!";
     }
 
+
+    @GetMapping("/routine")
+    public String DailyRoutine() {
+        return "Step right up to get your routine";
+    }
+
 }

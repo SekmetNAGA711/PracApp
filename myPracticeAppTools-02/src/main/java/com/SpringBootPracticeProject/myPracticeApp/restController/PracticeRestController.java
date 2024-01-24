@@ -28,7 +28,7 @@ public class PracticeRestController {
 
     @GetMapping("/routine")
     public String DailyRoutine() {
-        return "Step right up to get your routine";
+        return "Step right up to get your routine to live a balanced and healthy life";
     }
 
 }

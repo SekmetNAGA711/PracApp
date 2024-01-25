@@ -16,7 +16,7 @@ public class PracticeRestController {
     //expose a new endpoint for "workout"
     @GetMapping("/workout")
     public String getDailyWorkout() {
-        return "Run a hard 5k!!";
+        return "Run a hard 8k!!";
     }
 
     //expose a new endpoint for "fortune"
